@@ -1,0 +1,211 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap");
+
+body {
+  margin: 0;
+  font-size: 1rem;
+  font-family: "montserrat";
+}
+
+.txt-center {
+  text-align: center;
+}
+
+/* Bandeau de navigation principal*/
+header {
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 300px;
+  padding-right: 300px;
+}
+
+/* Logo */
+.LogoSite {
+  display: flex;
+  align-items: center;
+  width: 10%;
+}
+
+.LogoSite img {
+  margin-right: 10px;
+}
+
+h1 {
+  padding-right: 25%;
+  color: #158b78;
+}
+
+/* Navigation */
+.main_nav {
+  display: flex;
+  align-items: center;
+}
+
+/* Ajout de styles pour le menu burger */
+.menu-burger {
+  display: none; /* Caché par défaut sur les écrans plus grands */
+  cursor: pointer;
+}
+
+.menu-icon {
+  font-size: 24px;
+  color: #158b78;
+}
+
+.main_nav-element {
+  list-style-type: none;
+  display: flex;
+}
+
+.main_nav-links {
+  margin-right: 20px;
+}
+
+.main_nav-link {
+  text-decoration: none;
+  color: black;
+  font-weight: normal;
+}
+
+/* Ajout de styles pour le menu déroulant sur les petits écrans */
+.menu-dropdown {
+  display: none;
+  position: absolute;
+  top: 70px;
+  left: 0;
+  width: 100%;
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  z-index: 1;
+}
+
+.menu-dropdown.show {
+  display: flex;
+  flex-direction: column;
+}
+
+.menu-dropdown a {
+  padding: 10px;
+  text-decoration: none;
+  color: black;
+}
+
+/* Image bannière */
+.banniere-image {
+  background-image: url(https://s1.1zoom.me/b7068/853/Basketball_Ball_565959_1920x1080.jpg);
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  text-align: center;
+  padding: 100px 20px;
+}
+
+.banniere-contenu {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.banniere-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #ff8c94;
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 5px;
+}
+
+/* Contenu de la page - Block */
+.intro-main {
+  padding: 50px 350px 0;
+}
+
+.main_case--block {
+  max-width: 1200px;
+  gap: 30px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  border-radius: 10px;
+}
+
+.main_block {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  align-items: center;
+}
+
+.main_block h4 {
+  text-align: center;
+  font-size: larger;
+}
+
+.main_block p {
+  font-weight: 400;
+  align-self: center;
+}
+
+.main_block button {
+  background-color: #ff8c94;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+/* Profil des coachs */
+
+.main_profil {
+  display: flex;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  align-items: center;
+  max-width: 1200px;
+  height: 347px;
+  gap: 21px;
+  justify-content: center;
+  margin: auto;
+  margin-bottom: 25px;
+  margin-top: 50px;
+}
+
+/* Style spécifique pour chaque section */
+.main_profil-img {
+  border-radius: 50%;
+  width: 307px;
+  height: 307px;
+  margin-right: 30px;
+  margin: 2%;
+}
+
+.main_profil-ID {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-size: larger;
+  text-align: center;
+}
+
+.main_profil h3,
+h5 {
+  margin: 6px;
+}
+
+.main_profil p {
+  margin: 70px;
+}
+
+/* Les actualités du sport */
+
+/* Styles pour le pied de page */
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #f5f5f5;
+}

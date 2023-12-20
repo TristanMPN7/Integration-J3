@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap");
+
+body {
+  margin: 0;
+  font-size: 1, 6rem;
+  font-family: "montserrat";
+}
+
+/* Bandeau de navigation principal*/
+header {
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+/* Logo */
+.LogoSite {
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  width: 100px;
+  padding-left: 10%;
+}
+.LogoSite img {
+  width: 50px;
+  margin-right: 10px;
+}
+
+h1 {
+  color: #158b78;
+  justify-content: left;
+  display: flex;
+  margin-right: 30%;
+}
+
+/* Navigation */
+.main_nav {
+  display: flex;
+  align-items: end;
+}
+
+.main_nav-element {
+  list-style-type: none;
+  display: flex;
+}
+
+.main_nav-links {
+  margin-right: 20px;
+}
+
+.main_nav-link {
+  text-decoration: none;
+  color: black;
+  font-weight: normal;
+}
+
+/* Image bannière */
+
+.banniere-image {
+  background-image: url(https://s1.1zoom.me/b7068/853/Basketball_Ball_565959_1920x1080.jpg);
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  text-align: center;
+  padding: 100px 20px;
+}
+
+.banniere-contenu {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.banniere-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #ff8c94;
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 5px;
+}
+
+/* Contenu de la page */
